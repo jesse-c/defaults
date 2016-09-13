@@ -1,0 +1,24 @@
+#[user]
+#  name =
+#  email =
+#[github]
+#  user =
+[color]
+  ui = true
+[core]
+  editor = vim
+  excludesfile = /home/$USER/.gitignore_global
+  autocrlf = input
+[stash]
+  showPatch = true
+[merge]
+  conflictstyle = diff3
+[push]
+  default = upstream
+[commit]
+  verbose = true
+[diff]
+  compactionHeuristic = true
+  indentHeuristic = on
+[alias]
+  st = status
